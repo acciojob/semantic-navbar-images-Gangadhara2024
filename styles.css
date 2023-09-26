@@ -1,2 +1,18 @@
+*{
+	padding:0px;
+	margin:0px;
+}
 
-/* Your CSS Code here. */
+.navbar{
+	height:60px;
+	width:100%;
+	background-color:grey;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.navbar>li>a{
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+}
